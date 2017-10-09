@@ -29,6 +29,7 @@ class CalcTest extends TestCase
 	public function testAdd($a, $b, $sum)
 	{
 		$this->assertEquals($sum, $this->calc->add($a, $b));		
+		$this->assertTrue(true);		
 	}
 	
 	/**

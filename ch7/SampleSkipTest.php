@@ -6,7 +6,7 @@ use PHPunit\Framework\TestCase;
 class SampleSkipTest extends TestCase
 {
 	protected function setUp(){
-		if(!extension_loaded('mysqlie')){
+		if(!extension_loaded('mysqlie')){ // for success load mysqli
 			$this->markTestSkipped(
 			'The MySQLi extension is not available'
 			);

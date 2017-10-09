@@ -1,8 +1,8 @@
 <?php
+namespace TestNamespace;
 use PHPUnit\Framework\TestCase;
 
 
-namespace TestNamespace;
 
 class TestNamespace extends TestCase
 {   

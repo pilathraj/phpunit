@@ -40,6 +40,7 @@ class Subject
     {
         foreach ($this->observers as $observer) {
             $observer->update($argument);
+           
         }
     }
 }

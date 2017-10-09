@@ -6,6 +6,7 @@ class ErrorSuppressionTest extends TestCase
 	public function testFileWriting(){
 		$writer = new FileWriter();
 		$this->assertFalse(@$writer->write('somefile/aaa/','some content')); 
+		#$this->assertFalse($writer->write('somefile/aaa/','some content')); 
 		
 	}
 }
